@@ -4,10 +4,8 @@ import org.junit.Test;
 import ru.job4j.chess.ImpossibleMoveException;
 import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.Figure;
-
 import static org.junit.Assert.*;
 import static ru.job4j.chess.firuges.Cell.*;
-
 
 public class BishopBlackTest {
 
@@ -82,6 +80,4 @@ public class BishopBlackTest {
         BishopBlack bishop = new BishopBlack(A1);
         assertFalse(bishop.isDiagonal(F2, E8));
     }
-
-
 }
